@@ -2,7 +2,7 @@ import { Box, Flex, Link, Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <Box bg="gray.800" color="white" py={4} mt={8}>
+    <Box bg="#f3f2f1" color="black" py={4} mt={8}>
       <Flex direction={{ base: "column", md: "row" }} justify="space-between" align="center" px={4}>
         <Text>&copy; 2023 Financial Times</Text>
         <Flex>
